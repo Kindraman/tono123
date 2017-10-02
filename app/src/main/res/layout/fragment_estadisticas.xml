@@ -1,0 +1,82 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@drawable/cadera"
+                tools:layout_editor_absoluteY="85dp"
+                tools:layout_editor_absoluteX="16dp"
+                android:layout_weight="0.17" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="140dp"
+                android:layout_marginRight="120dp"
+                android:layout_marginTop="30dp"
+                android:textColor="@color/base"
+                android:typeface="normal"
+                android:textSize="20sp"
+                android:text="@string/consejo1"
+                tools:layout_editor_absoluteX="183dp"
+                tools:layout_editor_absoluteY="104dp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@drawable/rodilla"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="239dp"
+                android:layout_weight="0.10" />
+
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="130dp"
+                android:layout_marginRight="70dp"
+                android:layout_marginTop="35dp"
+                android:layout_weight="0.40"
+                android:text="La forma en la que estás pisando provoca un serio desgaste en la rodilla. Debes hacer menos presión en la parte frontal."
+                android:textColor="@color/base"
+                android:textSize="20sp"
+                android:typeface="normal"
+                tools:layout_editor_absoluteX="177dp"
+                tools:layout_editor_absoluteY="260dp" />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</FrameLayout>

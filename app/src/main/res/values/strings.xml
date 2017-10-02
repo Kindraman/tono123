@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Patitas</string>
+    <string name="title_home">scanner</string>
+    <string name="title_dashboard">diagnostico</string>
+    <string name="title_notifications">comentarios</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="consejo1">Tu forma de caminar actual está dañando seriamente la cadera. Debes mejorar la dirección de tus pies</string>
+</resources>
